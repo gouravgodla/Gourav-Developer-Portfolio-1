@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: rgb(5, 21, 24);
+    }
+
+    .container {
+      width: 600px;
+      margin: 150px auto;
+      text-align: center;
+    }
+
+    .logo {
+      width: 200px;
+      margin-bottom: 50px;
+    }
+
+    .search-form {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .search-input {
+      width: 400px;
+      padding: 20px;
+      border: 3px solid #1d46fd;
+      border-right: none;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .search,
+    .feeling-lucky {
+      padding: 10px 20px;
+      border: 2px solid #120fd6;
+      border-left: none;
+      background-color: #27c9ce;
+      cursor: pointer;
+      border-radius: 0 3px 3px 0;
+    }
+
+    .search:hover,
+    .feeling-lucky:hover {
+      background-color: #15c520;
+    }
+
+    footer .footer-rights {
+      text-align: center;
+      color: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="google-logo.gif" class="logo">
+    <form class="search-form">
+      <input type="text" class="search-input" name="q" placeholder="Search Google...">
+      <input type="submit" value="Google Search" class="search">
+      <input type="submit" value="I'm Feeling Lucky" class="feeling-lucky">
+    </form>
+  </div>
+  <footer>
+    <div class="footer-rights">
+      <hr>
+      All Rights Are Reserved @2023 by Gourav Singh
+      <hr>
+    </div>
+  </footer>
+</body>
+
+</html>
